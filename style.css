@@ -1,0 +1,175 @@
+.btn{
+    border-radius: 50px;
+    
+     }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+#hhh{
+    color: white !important;
+    font-size:70px !important;
+    margin-bottom: 5rem !important;
+    font-weight: bold !important;
+}
+
+
+.bam{
+    padding-top: 10rem !important;
+    padding-bottom: 15rem !important;
+}
+#hhhh{
+    color: white!important;
+    font-size:40px !important;
+    font-weight:600;
+}
+#aaa{
+    
+    
+    color: #000;
+    border: none;
+    padding: 20px 50px;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero > div {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.hero {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    padding-top: 40px !important;
+    min-height: unset !important;  /* ← ADD THIS - removes Bootstrap's min-height */
+    margin-top: 0 !important;      /* ← ADD THIS - removes any top margin */
+}
+header img {
+    height: 40px !important;
+    width: auto !important; /* auto keeps the ratio natural */
+    object-fit: contain !important;
+}
+
+.background-main {
+    background-image: url('./ChatGPT\ Image\ Jun\ 19\,\ 2026\,\ 09_46_33\ AM.png') !important; /* replace with your image filename */
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+/* dark overlay on top of image like crunchyroll */
+.background-main::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(to right, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.2) 70%) !important;
+    z-index: 0 !important;
+}
+
+/* make sure content stays above the overlay */
+.background-main > * {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+body{
+    background-color: #000 !important;
+}
+/* Pricing Section */
+/* Pricing Section */
+
+.btn-warning, .btn-lg {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+}
+.border-warning {
+  border: 2px solid #ff6b1a !important;
+}
+.bg-warning {
+  background: linear-gradient(135deg, #ffb300, #ff6b1a) !important;
+}
+
+.btn-warning {
+  background: linear-gradient(135deg, #ffb300, #ff6b1a, #e84040);
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.btn-warning:hover {
+  background: linear-gradient(135deg, #e84040, #ff6b1a, #ffb300);
+  color: #fff;
+}
+
+.btn-outline-warning {
+  background: transparent;
+  border: 2px solid #ff6b1a;
+  color: #ff6b1a;
+  border-radius: 50px;
+}
+.btn-outline-warning:hover {
+  background: linear-gradient(135deg, #ffb300, #ff6b1a, #e84040);
+  color: #fff;
+  border-color: transparent;
+}
+
+
+
+
+.anime-card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 300px;
+  width: 200px;
+}
+
+.anime-card:hover img {
+  transform: scale(1.05);
+  box-shadow:0 0 15px rgb(223, 117, 5) ;
+}
+
+.anime-card p {
+  font-size: 0.9rem;
+}
+
+.hidd{
+  background-color: rgba(0,0,0,.6) !important;
+ 
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+.m-auto {
+    margin: auto !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
